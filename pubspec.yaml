@@ -1,0 +1,53 @@
+name: flutter_app
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  http: ^0.12.0
+  rxdart: ^0.20.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+  assets:
+      - assets/images/image.png
+      - assets/images/image1.png
+      - assets/images/image2.png
+      - assets/images/facebook.svg
+      - assets/images/google.svg
+      - assets/images/twitter.svg
+      - assets/instagram.svg
+      - assets/youtube.svg
+  fonts:
+      - family: FiraSans
+        fonts:
+          - asset: assets/fonts/FiraSans/FiraSans-Regular.ttf
+          - asset: assets/fonts/FiraSans/FiraSans-ExtraBold.ttf
+      - family: mermaid
+        fonts:
+          - asset: assets/fonts/Mermaid/mermaid.ttf
+
